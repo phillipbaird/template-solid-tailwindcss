@@ -12,7 +12,7 @@
     "prettier": "prettier '{src,test}/**/*.{ts,tsx,js,jsx}' --write",
     "lint": "eslint '**/*.{ts,tsx,js,jsx}'"
   },
-  "license": "MIT",
+  "license": "<what ever your heart desires>",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",

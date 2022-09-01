@@ -1,6 +1,6 @@
 ## template-solid-tailwindcss
 
-Get started developing with [SolidJS](https://www.solidjs.com/), [TailwindCSS](https://tailwindcss.com/) and [Typescript](https://www.typescriptlang.org/) using this enhanced version of the standard [ts-tailwind template](https://github.com/solidjs/templates).
+Get started quickly developing with [SolidJS](https://www.solidjs.com/), [TailwindCSS](https://tailwindcss.com/) and [Typescript](https://www.typescriptlang.org/) using this slightly more opinionated version of the standard [ts-tailwind template](https://github.com/solidjs/templates).
 It adds...
 - `pnpm` out of the box.
 - Vitest for testing
@@ -17,9 +17,7 @@ $ cd my-solid-project
 $ pnpm install # or pnpm install or yarn install
 ```
 
-This templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+This templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.  This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
 ## Available Scripts
 
@@ -50,7 +48,7 @@ Run tests using Vitest.
 
 ### `pnpm coverage`
 
-Check test coverage.
+Check test coverage. (Note: Dependencies are not installed. Run the command to learn more.)
 
 ### `pnpm prettier`
 
@@ -64,3 +62,7 @@ Run ESLint for Typescript across the source code.
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, etc. etc.)
+
+## License
+
+This is a template repository. The UNLICENSE file is there to clarify that you are free to do whatever you want with its contents.
