@@ -9,8 +9,8 @@
     "serve": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "prettier": "prettier --config .prettierrc '{src,test}/**/*.{ts,tsx,js,jsx}' --write",
-    "lint": "eslint \"**/*.{ts,tsx,js,jsx}\""
+    "prettier": "prettier '{src,test}/**/*.{ts,tsx,js,jsx}' --write",
+    "lint": "eslint '**/*.{ts,tsx,js,jsx}'"
   },
   "license": "MIT",
   "devDependencies": {
